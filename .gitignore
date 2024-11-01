@@ -1,0 +1,39 @@
+# Build directories
+/bin/
+/obj/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Go vendor directory
+/vendor/
+
+# Go modules files
+go.sum
+
+# IDE specific files
+.idea/
+*.sublime-project
+*.sublime-workspace
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Configuration files
+*.env
+*.yaml
+*.yml
