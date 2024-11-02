@@ -1,0 +1,11 @@
+
+Backlog
+
+1. Not important at the moment but the request body may need to validated against the content type
+ - if contentType is defined as json then the request body string will need to be validated if its a json string. Same applies for xml
+
+2. First Release will support json only and no file upload
+
+3. VS code extension or a new app may be needed  but for now the focus will be on building cli application for simplicity.
+
+4. Requests will need to be processed parallel in future but initial Release will not support that.

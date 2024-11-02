@@ -5,8 +5,10 @@ type YamlRequest struct{
 	Method string	`yaml:'method'`
 	Url string		`yaml:"url"`                         
 	Headers map[string]string `yaml:"headers,omitempty"`  
+	QueryParams map[string]string `yaml:"queryParams,omitempty"`
 	ContentType string        `yaml:"contentType"`   
 	RequestBody string		  `yaml:"body,omitempty"`  
+	
 }
 
 type YamlParserConfig struct {
