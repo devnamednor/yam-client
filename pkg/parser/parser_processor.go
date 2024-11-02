@@ -6,7 +6,7 @@ import (
 	"github.com/goccy/go-yaml"
 )
 
-func parse(filePath string)(YamlParserConfig,error) {
+func parse(filePath string) (YamlParserConfig,error) {
 
     f, err :=os.Open(filePath)
 
@@ -25,6 +25,7 @@ func parse(filePath string)(YamlParserConfig,error) {
         return YamlParserConfig{},err
     }
 
-    return parserConfig,nil
+    err = validateRequests(parserConfig)
+    return parserConfig,err
 }
 

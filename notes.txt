@@ -9,3 +9,5 @@ Backlog
 3. VS code extension or a new app may be needed  but for now the focus will be on building cli application for simplicity.
 
 4. Requests will need to be processed parallel in future but initial Release will not support that.
+
+5. Support Get and Post get and post initial release
