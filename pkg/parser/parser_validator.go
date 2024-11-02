@@ -7,10 +7,10 @@ import (
 
 //validates the file
 func validateRequests(parseData YamlParserConfig)(error){
-
 	if !requestsExists(parseData) {
 		return fmt.Errorf("NO REQUESTS WERE FOUND ON THE FILE")
 	}
+
     return nil
 }
 
